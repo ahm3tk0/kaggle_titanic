@@ -1,2 +1,1 @@
-# kaggle_titanic
-Titanic Competition in Kaggle
+# Titanic Competition in Kaggle

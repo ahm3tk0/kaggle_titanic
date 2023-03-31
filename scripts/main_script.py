@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r".\data\train.csv")
+df = pd.read_csv("/Users/fors/Desktop/AFAD Projects/kaggle_titanic/data/train.csv")
 df['title'] =df['Name'].str.split(', ').str[1].str.split(' ').str[0].str[:-1]
 
 cabin_pred=[]
